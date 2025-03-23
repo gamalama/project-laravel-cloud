@@ -27,21 +27,21 @@
       href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet" />
 
-    <link rel="stylesheet" href="{{asset('back/assets/vendor/fonts/boxicons.css')}}" />
+    <link rel="stylesheet" href="{{secure_asset('back/assets/vendor/fonts/boxicons.css')}}" />
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="{{asset('back/assets/vendor/css/core.css')}}" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="{{asset('back/assets/vendor/css/theme-default.css')}}" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="{{asset('back/assets/css/demo.css')}}" />
+    <link rel="stylesheet" href="{{secure_asset('back/assets/vendor/css/core.css')}}" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="{{secure_asset('back/assets/vendor/css/theme-default.css')}}" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="{{secure_asset('back/assets/css/demo.css')}}" />
 
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="{{asset('back/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css')}}" />
+    <link rel="stylesheet" href="{{secure_asset('back/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css')}}" />
 
     <!-- Page CSS -->
 
     <!-- Helpers -->
-    <script src="{{asset('back/assets/vendor/js/helpers.js')}}"></script>
-    <script src="{{asset('back/assets/js/config.js')}}"></script>
+    <script src="{{secure_asset('back/assets/vendor/js/helpers.js')}}"></script>
+    <script src="{{secure_asset('back/assets/js/config.js')}}"></script>
   </head>
 
   <body>
@@ -298,18 +298,18 @@
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
 
-    <script src="{{asset('back/assets/vendor/libs/jquery/jquery.js')}}"></script>
-    <script src="{{asset('back/assets/vendor/libs/popper/popper.js')}}"></script>
-    <script src="{{asset('back/assets/vendor/js/bootstrap.js')}}"></script>
-    <script src="{{asset('back/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js')}}"></script>
-    <script src="{{asset('back/assets/vendor/js/menu.js')}}"></script>
+    <script src="{{secure_asset('back/assets/vendor/libs/jquery/jquery.js')}}"></script>
+    <script src="{{secure_asset('back/assets/vendor/libs/popper/popper.js')}}"></script>
+    <script src="{{secure_asset('back/assets/vendor/js/bootstrap.js')}}"></script>
+    <script src="{{secure_asset('back/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js')}}"></script>
+    <script src="{{secure_asset('back/assets/vendor/js/menu.js')}}"></script>
 
     <!-- endbuild -->
 
     <!-- Vendors JS -->
 
     <!-- Main JS -->
-    <script src="{{asset('back/assets/js/main.js')}}"></script>
+    <script src="{{secure_asset('back/assets/js/main.js')}}"></script>
 
     <!-- Page JS -->
 
